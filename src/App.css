@@ -1,351 +1,38 @@
-#ED1B24 h2 {
-  color: white;
-  font-family: "Scg";
+.App {
+  text-align: center;
 }
 
-.btt-close {
-  color: white;
-  font-family: "Scg";
-  font-size: large;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-h3 {
-  color: white;
-  font-family: "Scg";
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.h4 {
-  /* color: white; */
-  font-family: "Scg";
-  font-size: 30px;
-}
-
-.text-value {
-  font-family: "Scg";
-  font-size: 20px;
-
-}
-.headtext {
-  color: black;
-  font-family: "Scg";
-}
-
-.headtext-bold {
-  color: black;
-  font-family: "Scg";
-  font-weight: bold;
-  font-size: 20;
-}
-
-.base-Label {
-  color: gray;
-  font-family: "Scg";
-}
-
-.textLogin-Style {
-  letter-spacing: 2.5;
-  /* color: grey; */
-  font-family: "Scg";
-  font-weight: normal;
-  font-size: 30px;
-}
-
-/* option {
-  background-color: white;
-  padding: 4px;
-  color: blue;
-  margin-bottom: 1px;
-   font-size: 18px;
-  cursor: pointer;
-}
-
-datalist {
-  position: absolute;
-  background-color: white;
-  border: 1px solid blue;
-  border-radius: 0 0 5px 5px;
-  border-top: none;
-  font-family: sans-serif;
-  width: 350px;
-  padding: 5px;
-  max-height: 10rem;
-  overflow-y: auto
-  
-} */
-
-.text-head-dashboard {
-  color: black;
-  font-family: "Scg";
-  font-weight: normal;
-  font-size: 17px;
-}
-
-.close {
-  display: none;
-}
-
-.headtext-bold-modal {
-  color: black;
-  font-family: "Scg";
-  font-weight: bold;
-  font-size: 20px;
-}
-.headtext-bold-modalbody {
-  color: black;
-  font-family: "Scg";
-  font-weight: normal;
-  font-size: 18px;
-}
-.headertable {
-  color: black;
-  font-family: "Scg";
-  font-weight: normal;
-  font-size: 27px;
-}
-
-.c-body {
-  font-family: "Scg";
-}
-.c-body-white {
-  font-family: "Scg";
-  color: #fff;
-}
-
-.c-body-1 {
-  font-family: "Scg";
-  font-size: 14px;
-}
-
-h5 {
-  color: white;
-  font-family: "Scg"; /* same as #ff00ff */
-}
-h6 {
-  color: black;
-  font-family: "Scg"; /* same as #ff00ff */
-}
-h2 {
-  color: white;
-  font-family: "Boontuk";
-}
-
-label {
-  color: black;
-  font-family: "Scg"; /* same as #ff00ff */
-}
-
-title {
-  color: black;
-  font-family: "Scg"; /* same as #ff00ff */
-}
-
-.CLabel {
-  font-family: "Scg";
-}
-
-@font-face {
-  font-family: "Scg";
-  src: local("Scg"), url("./assets/fonts/Scg/SCG-Reg.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "Scg-bold";
-  src: local("Scg-bold"), url("./assets/fonts/Scg/SCG-Bol.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "Ubuntu";
-  src: local("Ubuntu"),
-    url("./assets/fonts/Ubuntu/Ubuntu-Regular.ttf") format("woff");
-}
-
-.navbars2 {
-  font-family: "Scg";
-}
-
-.CDataTable {
-  font-family: "Scg";
-}
-
-.CInput {
-  font: "Scg";
-}
-
-.from-country {
-  font-family: "Scg";
-}
-
-li {
-  display: inline;
-}
-
-body {
-  font: "Scg";
-}
-
-header {
-  font: "Scg";
-}
-
-p {
-  font: "Scg";
-  font-size: 15;
-}
-
-row {
-  font: "Scg";
-}
-
-/* .MuiAppBar-colorPrimary {
-  background-color: #056776;
-  color: #056776;
-} */
-
-fieldset.scheduler-border-aa {
-  border: 1px solid #ddd !important;
-  padding: 1em 1.4em 1.4em 1.4em !important;
-  margin: 0 1em 1.5em 1em !important;
-  border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 0px 0px #000;
-  box-shadow: 0px 0px 0px 0px #000;
-}
-fieldset.scheduler-border-bb {
-  border: 1px solid #ddd !important;
-  padding: 1em 1.4em 1.4em 1.4em !important;
-  margin: 0 1em 1.5em 1em !important;
-  border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 0px 0px #000;
-  box-shadow: 0px 0px 0px 0px #000;
-}
-fieldset.scheduler-border-cc {
-  border: 1px solid #ddd !important;
-  padding: 1em 1.4em 1.4em 1.4em !important;
-  margin: 0 1em 1.5em 1em !important;
-  border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 0px 0px #000;
-  box-shadow: 0px 0px 0px 0px #000;
-}
-
-legend.scheduler-border-aa {
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  text-align: left !important;
-  max-width: 6%;
-  padding-left: 1%;
-}
-legend.scheduler-border-bb {
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  text-align: left !important;
-  max-width: 10%;
-  padding-left: 1%;
-}
-legend.scheduler-border-cc {
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  text-align: left !important;
-  max-width: 7%;
-  padding-left: 1%;
-}
-
-.MuiInputBase-root {
-  color: rgba(0, 0, 0, 0.87);
-  cursor: text;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  position: relative;
-  font-family: "Scg";
-  font-size: 1rem;
-  box-sizing: border-box;
-  align-items: baseline;
-  text-align: center;
-  height: 45px;
-  line-height: 1.9em;
-  letter-spacing: 0.00938em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
-  padding: 10px;
+.App-link {
+  color: #61dafb;
 }
 
-.MuiFormControl-fullWidth {
-  width: auto;
-  height: auto;
-}
-
-.MuiAutocomplete-popper {
-  font-family: "Scg";
-}
-
-.box-resize input {
-  height: 0px;
-  padding: 0px 14px;
-}
-
-.border-set {
-  position: relative;
-  border-radius: 4px;
-}
-
-.MuiAutocomplete-root {
-  display: block;
-  width: 100%;
-  padding: 0.375 rem 0.75 rem;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.5;
-  background-clip: padding-box;
-  border: 1 px solid;
-  color: #768192;
-  background-color: #fff;
-  border-color: #d8dbe0;
-  border-radius: 0.25 rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.fixed {
-  padding-bottom: 0px;
-  position: sticky;
-  height: 290px;
-  width: 100%;
-  bottom: 0;
-  color: #056776;
-  background-color: white;
-  z-index: 2;
-  font-family: "Scg";
-  border-top: 2px solid #056776;
-  border-right: 2px solid #056776;
-  border-left: 2px solid #056776;
-  border-radius: 10px;
-}
-
-/* th {
-  position: sticky;
-} */
-
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  font-family: 'Scg';
-  visibility: hidden;
-  width: 120px;
-  background-color: #056776;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
