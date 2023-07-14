@@ -1,0 +1,354 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import CoreUI styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Some temp fixes
+@import "fixes";
+
+// If you want to add something do it here
+@import "custom";
+
+.sidebar {
+  $scgcolor: #ed1b24;
+  color-scheme: #056776;
+  border-color: #056776;
+
+  //
+  // background-color: $scgcolor;
+}
+.cursor {
+  color: #056776;
+}
+
+.navbars {
+  $scgcolor: #056776;
+  color-scheme: $scgcolor;
+}
+
+// .c-sidebar{
+//   background: chartreuse;
+// }
+
+::-moz-selection {
+  $scgcolor: #056776;
+  background: #056776;
+  color: $scgcolor;
+  background-color: $scgcolor;
+}
+::-webkit-selection {
+  $scgcolor: #056776;
+  background: #056776;
+  color: $scgcolor;
+  background-color: $scgcolor;
+}
+::selection {
+  $scgcolor: #056776;
+  background: #056776;
+  color: $scgcolor;
+  background-color: $scgcolor;
+  outline-color: $scgcolor;
+}
+
+.Element-nav {
+  //Menu-SideBar//
+  $scgcolor: #ed1b24;
+  $Psomchoose: #3399ff;
+  $blueP: #2a52ba;
+  $primaryC: #040c34;
+  $greenvote: #056776;
+  background-color: $greenvote;
+  color: $greenvote;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  $cshopee: #5089c6;
+  $scgcolor: #ed1b24;
+  //color:  $scgcolor;
+  background-color: #50949f; //**Color-mouse-select
+}
+
+.justify-content-center .text-center {
+  // $scgcolor: #056776;
+  // background-color: #fff;
+
+  font-family: "Scg";
+}
+
+.text-white .py-5 .d-md-down-none {
+  $scgcolor: #056776;
+  background-color: $scgcolor;
+}
+.btt-close {
+  color: white;
+  font-family: "Scg";
+}
+
+::classes.appBar {
+  $scgcolor: #056776;
+  background-color: $scgcolor;
+  color: $scgcolor;
+  background: $scgcolor;
+}
+
+.MuiAppBar-colorPrimary {
+  $scgcolor: #ed1b24;
+  color: #fff;
+  background-color: #056776;
+}
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+  background-color: #ed1b24;
+  color: white;
+}
+.PrivateTabIndicator-colorSecondary-46 {
+  color: #fff;
+  background-color: #fff;
+}
+
+.font-form-scg {
+  font-family: "Scg";
+}
+.font-form-scg-card {
+  font-family: "Scg";
+  color: black;
+  font-size: 16px;
+}
+
+.navbars2 {
+  font-family: "Ubuntu";
+}
+
+.color-card-gra {
+  $scgcolor: #ed1b24;
+  color: #fff;
+  background-color: #50949f;
+}
+
+.bg-gradient-secondary {
+  $green: #50949f;
+  $blueP: #5089c6;
+  $white: #fff;
+  background: $white !important;
+  // background: linear-gradient(
+  //   94deg
+  //   , #ed1b24 30%, #39f 100%) !important;
+  border-color: white;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiPaper-root {
+  color: #5089c6;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #056776;
+}
+
+.MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Scg";
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+// .MuiInputLabel-outlined {
+//     z-index: 1;
+//     transform: translate(14px, 20px) scale(1);
+//     pointer-events: none;
+//     font-family: "Courier New";
+// }
+
+.btn-warning {
+  color: #fff;
+  background-color: #f9b115;
+  border-color: #f9b115;
+}
+
+.btn-warning-01 {
+  color: #fff;
+  background-color: #50949f;
+  border-color: #056776;
+}
+
+.btn-warning-01-mini {
+  font-size: 10px;
+  color: #fff;
+  background-color: #50949f;
+  border-color: #056776;
+}
+
+.btn-outline-primary {
+  color: #056776;
+  border-color: #056776;
+}
+
+.btn-mainsmp {
+  font-size: 12px;
+  color: #fff;
+  background-color: #50949f;
+  border-color: #50949f;
+}
+
+.btn-mainsmp-login {
+  font-size: 15px;
+  color: #fff;
+  background-color: #50949f;
+  border-color: #50949f;
+}
+
+.btn-mainsmp-logout {
+  font-size: 15px;
+  color: #fff;
+  background-color: #ed1b24;
+  // border-color: #50949f;
+}
+
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 10px;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.btn-info-01-mini {
+  font-size: 10px;
+  color: #fff;
+  background-color: #2a52ba;
+  border-color: #2a52ba;
+}
+
+.btn-info-02-mini {
+  font-size: 10px;
+  color: #fff;
+  background-color: #5089c6;
+  border-color: #5089c6;
+}
+
+// .table {
+//   width: 100%;
+//   margin-bottom: 1rem;
+//   color: #3c4b64;
+// }
+
+.loginbg {
+  background-color: #eef2f7;
+}
+
+.modal-login {
+  border-color: #fff;
+  // background-color: #eef2f7;
+}
+
+.table th,
+.table td {
+  // border-collapse: collapse;
+  // width: 100%;
+  max-width: 100%;
+  padding: 0.75rem;
+  vertical-align: initial;
+  border-top: 10% solid;
+  border-top-color: #d8dbe0;
+  // text-align: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table thead th {
+  z-index: 1;
+  background: white;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  // position: sticky;
+  // vertical-align: middle;
+  // border-bottom: 2px solid;
+  // border-bottom-color: #d8dbe0;
+  // text-align: center;
+}
+
+option {
+  font-family: 'Scg';
+  background-color: white;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: lightslategray;
+}
+
+.badge-warning {
+  color: #fff;
+  background-color: #f9b115;
+}
+
+.create-bt {
+  color: #fff;
+  background-color: #056776;
+  border-color: #056776;
+}
+
+.c-sidebar-nav-link-menu {
+  padding-left: 70px;
+}
+
+.Timmers {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;  
+}
+
+.time {
+  font-size: 32px;
+}
+
+.MuiAutocomplete-root {
+  display: block;
+  width: 100%;
+  padding: 0.375 rem 0.75 rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1 px solid;
+  color: #768192;
+  background-color: #fff;
+  border-color: #d8dbe0;
+  border-radius: 0.25 rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.MuiAutocomplete-fullWidth {
+  display: block;
+  width: 100%;
+  padding: 0.375 rem 0.75 rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1 px solid;
+  color: #768192;
+  background-color: #fff;
+  border-color: #d8dbe0;
+  border-radius: 0.25 rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+// .MuiAppBar-colorPrimary {
+//   color: #fff;
+//   background-color: #3f51b5;
+// }
